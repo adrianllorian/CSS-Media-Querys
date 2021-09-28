@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content = "width-devices-width, initial-scale=1.0">
+  <title>Principado de Asturias</title>
+  <link rel="stylesheet" href="Estilos/Index.css">
+</head>
+<body>
+ 
+                  <!--CABEZERA-->
+ 
+  <header class="cabezera">
+   <div class="contenedor_menu">
+    <img class="logo" src="Estilos/Imagenes/Logo.png" alt="logo de laweb">
+      <button onclick="menu()" class="menu_desplegable">
+      
+      <img class="flecha" src="Estilos/Imagenes/flecha.svg" alt="menu desplegable">
+      </button>
+       <div class="caja_menu_ordenador">
+        <!--Deje escrito este div para poner el menu del ordenador-->
+        <ul class="lista_menu">
+          <li><a href="#">Español</a></li>
+          <li><a href="#">EU</a></li>
+          <li><a href="#">Hospeda en un alojamiento</a></li>
+          <li><a href="#">Ofrece una experencia</a></li>
+          <li><a href="#">Ayuda</a></li>
+          <li><a href="#">Registrarse</a></li>
+          <li><a href="#">Inicia sesion</a></li>
+        </ul>
+      </div>
+      <div id="caja_menu">
+        
+      </div>
+     
+      </div>
+      
+      
+      <!--FORMULARIO EN LA CABEZERA-->
+      
+      <h1 class="titulo_portada">Reserva alojamentos y experiencias unicas.</h1>
+      
+      <div class="caja_formulario">
+      
+    <form id="formulario_reserva" name="formulario_reserva" class="formulario">
+      <h1 class="titulo_formulario">Reserva alojamentos y experiencias unicas.</h1>
+      <label class="titulo_donde">DÓNDE</label>
+      <input type="text" placeholder="Dónde" name="Donde" class="donde">
+      
+      <div class="titulo_fechas">
+      <label class= "titulo_llegada">LLEGADA</label>
+      <label class="titulo_salida">SALIDA</label>
+      </div>
+      <div class="caja_fechas">
+      <input type="date" name="fecha_llegada" class="llegada" >
+      
+      <input type="date" name="fecha_salida" class="salida">
+      </div>
+      
+      <label class="titulo_huespe">HUÉSPEDES</label>
+      <select name="huespedes" class="huespede">
+        <option value="0">Huéspedes</option>
+        <option value="1">1 Adulto</option>
+        <option value="2">2 Adulto</option>
+        <option value="3">3 Adulto</option>
+        <option value="4">4 Adulto</option>
+        <option value="5">5 Adulto</option>
+      </select>
+      <button class="boton_buscar">Buscar</button>
+    </form>
+  </div>
+  </header>
+  
+               
+               
+               
+               
+      <!--FORMULARIO PARA EL MOVIL MOVIL-->
+  
+  <div class="caja_formulario_movil">
+    <form id="formulario_reserva" name="formulario_reserva" class="formulario_movil">
+      <label class="titulo_donde">DÓNDE</label>
+      <input type="text" placeholder="Dónde" name="Donde" class="donde">
+      
+      <div class="titulo_fechas">
+      <label class= "titulo_llegada">LLEGADA</label>
+      <label class="titulo_salida">SALIDA</label>
+      </div>
+      <div class="caja_fechas">
+      <input type="date" name="fecha_llegada" class="llegada" >
+      
+      <input type="date" name="fecha_salida" class="salida">
+      </div>
+      
+      <label class="titulo_huespe">HUÉSPEDES</label>
+      <select name="huespedes" class="huespede">
+        <option value="0">Huéspedes</option>
+        <option value="1">1 Adulto</option>
+        <option value="2">2 Adulto</option>
+        <option value="3">3 Adulto</option>
+        <option value="4">4 Adulto</option>
+        <option value="5">5 Adulto</option>
+      </select>
+      <button class="boton_buscar_movil">Buscar</button>
+    </form>
+  </div>
+  
+  
+                     
+                     
+                     
+                     
+                      <!--ENLACES-->
+  
+  <nav class="enlaces">
+    <h2 class="titulo_enlaces">Descubre el Principado de Asturias</h2>
+    <div class="contenedor_imagenes">
+     
+      <div class="contenedor1"> 
+        <img class="foto1" src="Estilos/Imagenes/alojamiento.jpg">
+        <h4 class="titulo_imagenes">Alojamientos</h4>
+        </div>
+        
+      <div class="contenedor2"> 
+        <img class="foto1" src="Estilos/Imagenes/aventuras.jpg">
+        <h4 class="titulo_imagenes">Experiencias</h4>
+        </div>
+        
+        <div class="contenedor3"> 
+        <img class="foto1" src="Estilos/Imagenes/experiencias.jpg">
+        <h4 class="titulo_imagenes">Aventuras</h4>
+        </div>
+        
+        <div class="contenedor4"> 
+        <img class="foto1" src="Estilos/Imagenes/gastronomia.jpg">
+        <h4 class="titulo_imagenes">Restaurantes</h4>
+        </div>
+        
+    </div>
+  </nav>
+  
+  
+                        <!--PARALLAX-->
+  
+  <aside class="parallax">
+
+     <h3 class="frase1">PRESENTAMOS</h3>
+     <h2 class="frase2">Animales</h2>
+     <h3 class="frase3">en las experiencias del Principado de Asturias</h3>
+     <button class="mas_info">Mas información</button>
+   
+  </aside>
+  
+                      <!--EXPERIENCIAS-->
+                      
+  <main class="experiencias">
+  <h3 class="aventura_titulo1">Presentamos las Aventuras en Asturias</h3>
+  <h5 class="aventura_titulo2">Viajes de varios días ofrecidos por expertos locales con actividades, comida y alojamiento incluidos</h5>
+   
+   <div class="caja_experencias">
+    <div class="experencia1">
+      <img class="foto_expe" src="Estilos/Imagenes/bulnes.jpg">
+      <h5 class="nombre_pueblo">BULNES</h5>
+      <h5 class="oferta">3 días en el paraiso de los picos de europa</h5>
+      <h5 class="dias">3 días</h5>
+      <div class="caja_puntos">
+        <h5 class="puntos">5.0&#9733;</h5>
+        <h5 class="votos">(1)</h5>
+      </div>
+    </div>
+    
+    <div class="experencia2">
+      <img class="foto_expe" src="Estilos/Imagenes/luarca.jpg">
+      <h5 class="nombre_pueblo">LUARCA</h5>
+      <h5 class="oferta">Vela y gastronomia en el norte de Asturias</h5>
+      <h5 class="dias">6 días</h5>
+      <div class="caja_puntos">
+        <h5 class="puntos">5.0&#9733;</h5>
+        <h5 class="votos">(1)</h5>
+      </div>
+    </div>
+   
+    <div class="experencia3">
+      <img class="foto_expe" src="Estilos/Imagenes/cangas.jpg">
+      <h5 class="nombre_pueblo">CANGAS DE ONIS</h5>
+      <h5 class="oferta">Aventura exclusiva en la naturaleza, Cangas</h5>
+      <h5 class="dias">3 días</h5>
+      <div class="caja_puntos">
+        <h5 class="puntos">5.0&#9733;</h5>
+        <h5 class="votos">(1)</h5>
+      </div>
+    </div>
+    
+    <div class="experencia4">
+      <img class="foto_expe" src="Estilos/Imagenes/Gijon.jpg">
+      <h5 class="nombre_pueblo">GIJÓN</h5>
+      <h5 class="oferta">Del crepusculo al amanecer prestoso</h5>
+      <h5 class="dias">2 días</h5>
+      <div class="caja_puntos">
+        <h5 class="puntos">4.8&#9733;</h5>
+        <h5 class="votos">(5)</h5>
+      </div>
+   </div> 
+   
+   
+   <div class="experencia5">
+      <img class="foto_expe" src="Estilos/Imagenes/rodiles.jpg">
+      <h5 class="nombre_pueblo">PLAYA DE RODILES</h5>
+      <h5 class="oferta">Un aire fresco y renovador para tu cuerpo</h5>
+      <h5 class="dias">5 días</h5>
+      <div class="caja_puntos">
+        <h5 class="puntos">6.5&#9733;</h5>
+        <h5 class="votos">(1)</h5>
+      </div>
+    </div>
+    
+    <div class="experencia6">
+      <img class="foto_expe" src="Estilos/Imagenes/fuentes.jpg">
+      <h5 class="nombre_pueblo">FUENTES DE INVIERNO</h5>
+      <h5 class="oferta">La armonia de las nubes en la montaña</h5>
+      <h5 class="dias">3 días</h5>
+      <div class="caja_puntos">
+        <h5 class="puntos">9.0&#9733;</h5>
+        <h5 class="votos">(1)</h5>
+      </div>
+    </div>
+    
+    </div>
+   <button class="boton_aventuras">Mostrar todas las aventuras</button>
+   
+   <a class="enlace_boton" href="#"> Mostrar todas las aventuras &#62;
+   </a>
+  </main>
+  
+  
+</body>
+<script src="Estilos/JavaScript/Web_Asturias.js">
+</script>
+</html>
